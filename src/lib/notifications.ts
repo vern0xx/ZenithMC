@@ -1,4 +1,4 @@
-import { db, generateId, Notification } from './db'
+import { db, generateId, type Notification } from './db'
 
 export async function createNotification(userId: string, title: string, message: string, type = 'info', link?: string) {
   const notification: Notification = {

@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react'
 import { initFirebase, requestNotificationPermission, onForegroundMessage } from '@/config/firebase'
 import { useAuth } from './AuthContext'
-import { db, Notification } from '@/lib/db'
+import { db, type Notification } from '@/lib/db'
 import { createNotification } from '@/lib/notifications'
 
 interface NotificationContextType {
