@@ -1,0 +1,8 @@
+{
+  "name": "ZenithMC",
+  "short_name": "ZenithMC",
+  "start_url": "/ZenithMC/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1"
+}
